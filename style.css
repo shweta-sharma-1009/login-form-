@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    background-image: url(./image/laptop\ bacground\ image.webp);
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: auto;
+}
+.box {
+    border-radius: 100px;
+    width: 450px;
+    padding: 80px;
+    bottom: 20px;
+    margin: 80px;
+    /* border: 2px solid orangered; */
+    background-color: rgb(11, 11, 11);
+    box-shadow: 1px 1px 2px #ffc400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 80%
+    align-self: center;
+    padding: 20px;
+
+}
+.fa-envelope,
+.fa-lock-open{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+
+}
+
+.box input[type="text"],
+.box input[type="password"]{
+    font-size: 20px;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 100px auto;
+    text-align: center;
+    border: 3px solid #ffc400ef;
+    padding: 20px 10px;
+    width: 300px;
+    outline: none;
+    color: #625e5e;
+    border-radius: 24px;
+    transition: all .2s ease-in;
+}
+.box input[type="text"]:focus
+.box input[type="passwors"]:focus{
+width: 250px;
+border-color: #ffc400ef;
+}
+
+
+.box{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+    border: 0;
+    background: rgb(167, 162, 162);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid#f8f7f4ef;
+    padding: 20px 60px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+#btn:hover{
+    border-color: #ffc400ef;
+}
